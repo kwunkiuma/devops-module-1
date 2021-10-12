@@ -21,6 +21,8 @@ def calc(inputs):
             answer = int(inputs[1]) * int(inputs[2])
         case "%":
             answer = int(inputs[1]) % int(inputs[2])
+        case "^":
+            answer = int(inputs[1]) ** int(inputs[2])
     return answer
 
 def step2():
